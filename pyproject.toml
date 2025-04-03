@@ -1,0 +1,15 @@
+[project]
+name = "kkang-generator"
+version = "0.1.0"
+description = "깡 생성기"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gradio>=5.23.3",
+    "huggingface>=0.0.1",
+    "numpy>=2.2.4",
+    "opencv-python>=4.11.0.86",
+    "safetensors>=0.5.3",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+]
